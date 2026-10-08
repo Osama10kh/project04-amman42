@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osama Khader - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navbar Section -->
+    <header class="navbar">
+        <div class="logo-container">
+            <a href="#hero" class="logo" aria-label="Osama Khader">
+                <span class="logo-default">O.K</span>
+                <span class="logo-hover">
+                    <span class="first-name">Osama</span>
+                    <span class="last-name">Khader</span>
+                </span>
+            </a>
+        </div>
+
+        <nav class="nav-links">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <!-- Dynamic Theme Switcher Button -->
+        <button id="theme-toggle" class="theme-btn">Switch Theme</button>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1>Hello, I'm <span class="highlight">Osama Khader</span></h1>
+                <p>Web Developer & Cybersecurity Trainee</p>
+            </div>
+        </section>
+
+        <!-- Placeholder Sections to complete Ex00 requirements -->
+        <section id="about" class="section"><h2>About Me</h2></section>
+        <section id="skills" class="section"><h2>Skills</h2></section>
+        <section id="projects" class="section"><h2>Projects</h2></section>
+        <section id="hobbies" class="section"><h2>Hobbies</h2></section>
+        <section id="contact" class="section"><h2>Contact</h2></section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Osama Khader. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
