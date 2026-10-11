@@ -155,6 +155,19 @@ body {
     font-weight: bold;
 }
 
+/* Make project cards act as clickable blocks */
+.project-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: transform 0.2s ease;
+}
+
+.project-card-link:hover .project-card {
+    border-color: var(--accent-color);
+    transform: translateY(-4px);
+}
+
 /* Projects Showcase */
 .projects-grid {
     display: grid;
